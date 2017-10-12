@@ -1,0 +1,32 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": [
+        "prettier",
+        "prettier/react"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "prettier"
+    ],
+    "rules": {
+        "prettier/prettier": ["error", {
+            "singleQuote": true,
+            "trailingComma": "none",
+            "bracketSpacing": true,
+            "jsxBracketSameLine": true,
+            "semi": false,
+            "parser": "babylon"
+        }]
+    }
+}
