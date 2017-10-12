@@ -1,0 +1,45 @@
+{
+  "name": "react-polyglot-provider",
+  "version": "1.0.0",
+  "description": "Polyglot Provider for React",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/higoosebump/react-polyglot-provider.git"
+  },
+  "keywords": [
+    "react",
+    "polyglot"
+  ],
+  "author": "Axel Delafosse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/higoosebump/react-polyglot-provider/issues"
+  },
+  "homepage": "https://github.com/higoosebump/react-polyglot-provider#readme",
+  "dependencies": {
+    "node-polyglot": "^2.2.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.8.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.4.0",
+    "prettier": "^1.7.4",
+    "prettier-eslint": "^8.2.0"
+  }
+}
