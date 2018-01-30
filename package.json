@@ -1,6 +1,6 @@
 {
   "name": "react-polyglot-provider",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Polyglot Provider for React",
   "main": "build/index.js",
   "scripts": {
@@ -23,16 +23,16 @@
   },
   "homepage": "https://github.com/higoosebump/react-polyglot-provider#readme",
   "dependencies": {
-    "@babel/cli": "^7.0.0-beta.38",
-    "@babel/core": "^7.0.0-beta.38",
-    "@babel/preset-env": "^7.0.0-beta.38",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
     "node-polyglot": "^2.2.2",
     "prop-types": "^15.6.0",
     "react": "^16.2.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
-    "babel-loader": "^8.0.0-beta.0",
+    "babel-loader": "^7.1.2",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "eslint": "^4.16.0",
